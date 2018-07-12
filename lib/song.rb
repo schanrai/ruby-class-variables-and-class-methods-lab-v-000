@@ -40,13 +40,23 @@ class Song
   def self.genre_count
     genre_count = {}
     @@genres.each do |genre|
+      #where is the line of code that assigns the key to the hash?
       if genre_count[genre]
         genre_count[genre]+= 1
-      else genre_count[genre] = 1
+        else genre_count[genre] = 1
+        end
       end
-    end
-  genre_count
+    genre_count
   end
+
+def self.artist_count
+  artist_count = {}
+  @@artists.each do | artist |
+    if artist_count[artist]
+
+
+
+
 
 
 end
