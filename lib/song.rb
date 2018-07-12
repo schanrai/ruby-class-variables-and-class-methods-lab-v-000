@@ -61,7 +61,7 @@ def self.artist_count
   artist_count
 end
 
-  
+
 
 
 
